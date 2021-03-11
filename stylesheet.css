@@ -242,7 +242,7 @@ header{
     width: 60px;
     height: 60px;
     background-color: #eee;
-    box-shadow: 0 0 3px #1687a7;
+    box-shadow: 0 0 3px #147c99;
     border-radius: 50%;
     margin: 0 10px;
     transition: filter .3s ease;
@@ -296,7 +296,7 @@ header{
 }
 
 .progress-bar{
-    background-color: #1687a7;
+    background-color: #1691a7;
     border-radius: 100px;
 }
 
