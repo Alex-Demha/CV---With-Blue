@@ -256,9 +256,10 @@ header{
 
 .logo-ul .logo-li .logo-a{
     display: block;
-    margin-top: 17%;
+    padding-top: 10px;
     font-size: 30px;
     color: #147c99;
+    height: 100%;
 }
 
 .shift-left{

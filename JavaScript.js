@@ -1,3 +1,8 @@
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+
+  
 var header = document.querySelector('header');
 var checkBox = document.getElementsByClassName('nb-toggle')[0];
 window.addEventListener('scroll', function(){
