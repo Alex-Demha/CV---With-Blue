@@ -23,7 +23,6 @@
 </head>
 <body>
 <header>
-    
         <h1 class="nb-logo">My CV</h1>
         <label for="nb-toggle" class="nb-toggle-label" ><span class="toggle-button">  </span></label>
         <input type="checkbox" id="nb-toggle" class="nb-toggle">
@@ -41,13 +40,12 @@
 </header>
     
 <main>
-
 <section class="container-top">
-        <img class="avatar" src="Assets/Avatar.jpeg">
+        <img class="avatar" src="Assets/avatar2.jpg">
         <h1 class="name">Ahmed Bassam</h1>
         <h4> Student | Web Developer </h4>
-        <button class="btn btn-primary">Hire me</button>
-        <button class="btn btn-primary">Download CV</button> 
+        <a class="btn btn-primary" href="#contact">Hire me</a>
+        <a class="btn btn-primary" href="index.html" download="Resume">Download CV</a> 
         <div class="logos">
          <ul class="logo-ul">
            <li class="logo-li"> <a class="logo-a" data-toggle="tooltip" data-placement="top" title="My Facebook Page"> <i class="fab fa-facebook-f logo shift-left"></i></a> </li>
@@ -61,13 +59,13 @@
 <span class="target" id="about"></span>
 <div class="container revealed">
     <div class="row">
-        <div class="col col-lg-6 col-md-6 col-sm-12">
-            <h1 > <i class="fas fa-address-card icon"></i> About</h1>
-            <p>My name is Ahmed, I'm a 20 year old student in a computer science college.
-                Currently I'm pursuing a carreer in front-end web development.
-            </p>
-        </div>
-        <div class="col col-lg-6 col-md-6 col-sm-12"> 
+    <div class="col-md-6 col-sm-12">
+        <h1 > <i class="fas fa-address-card icon"></i> About</h1>
+        <p>Hi, my name is Ahmed, a 20 year-old student studying computer science and hoping to pursue a carreer in
+            front-end web development, as I have been learning and trying to improve myself in it as much as possible. 
+        </p>
+    </div>
+        <div class="col-md-6 col-sm-12"> 
             <h1><i class="fas fa-info-circle icon"></i> Basic information</h1>
             <table class="table table-striped">
                   <tr>
@@ -178,21 +176,17 @@
 <div class="container portofolio-container reveal">
         <span class="portofolio-title"> <p class="portofolio-title-p"> Work Experience </p></span>
         <span class="portofolio-description">
-            <p class="portofolio-description-p">Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Vitae maiores magnam ex at corporis aliquam,
-            alias, ea officia unde ipsam non velit
-            nesciunt. 
+            <p class="portofolio-description-p"> Programming wise, I haven't worked anywhere yet.
+                other than that, I've had a couple of jobs working retail here and there.
             </p>
         </span>
 </div>
 
 <div class="container portofolio-container reveal">
-    <span class="portofolio-title"> <p class="portofolio-title-p"> Graduation </p></span>
+    <span class="portofolio-title"> <p class="portofolio-title-p">Study</p></span>
     <span class="portofolio-description">
-        <p class="portofolio-description-p">Lorem ipsum dolor sit
-        amet consectetur adipisicing elit. Vitae maiores magnam ex at corporis aliquam,
-        alias, ea officia unde ipsam non velit
-        nesciunt. 
+        <p class="portofolio-description-p">I'm currently in my 3rd year studying at the University of Technology - Department
+            of Computer Science - branch of Programming. 
         </p>
     </span>
 </div>
@@ -200,10 +194,9 @@
 <div class="container portofolio-container reveal">
     <span class="portofolio-title"> <p class="portofolio-title-p"> Other </p></span>
     <span class="portofolio-description">
-        <p class="portofolio-description-p">Lorem ipsum dolor sit
-        amet consectetur adipisicing elit. Vitae maiores magnam ex at corporis aliquam,
-        alias, ea officia unde ipsam non velit
-        nesciunt. 
+        <p class="portofolio-description-p">I've read books, seen videos and finished courses 
+            in programming (mostly concerened with front-end web development).
+            and I'm currently in the Project-1 Team Otto Bootcamp.
         </p>
     </span>
 </div>
@@ -215,7 +208,7 @@
     <div class="container contact-container reveal">
         <div class="row">
     <div class=" col-lg-6 col-md-12 col-sm-12">
-        <form class="contact-form">
+        <form class="contact-form" action="">
         <div class="contact-inputs">
 
             <input type="email" name="email" id="email" placeholder="E-mail">
@@ -246,11 +239,10 @@
     </div>
 </section>
     </main>
-
-
-
-
+    <!-- Bootstrap JS -->
     <script src="Bootstrap/bootstrap.js"></script>
+
+    <!-- My JS -->
     <script src="JavaScript.js"></script>
 </body>
 </html>

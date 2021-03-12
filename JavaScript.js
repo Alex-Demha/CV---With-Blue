@@ -2,7 +2,7 @@ $(function () {
     $('[data-toggle="tooltip"]').tooltip()
   });
 
-  
+var windowHeight = window.innerHeight;
 var header = document.querySelector('header');
 var checkBox = document.getElementsByClassName('nb-toggle')[0];
 window.addEventListener('scroll', function(){
@@ -22,9 +22,8 @@ function reveal(){
 
     for( var i=0; i < reveals.length; i++)
     {
-        var windowHeight = window.innerHeight;
         var revealTop = reveals[i].getBoundingClientRect().y;
-        if(revealTop < windowHeight - 90)
+        if(revealTop + 100 < windowHeight)
         reveals[i].classList.add('revealed');
         else
         reveals[i].classList.remove('revealed');
